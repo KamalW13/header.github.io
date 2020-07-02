@@ -44,7 +44,7 @@ a{
 	color: darkgrey;
 	position: absolute;
 	top: 10%;
-	right: 18%;
+	right: 17%;
 	padding: 4px;
 	margin-left: 4px;
 }
@@ -113,6 +113,8 @@ header {
 	padding: 4px;
 }
 /* sampai sini ya guys headernya */
+
+
 
 /* Main */
 
@@ -195,6 +197,7 @@ main{
 
 .blok h3{
 	font-weight: normal;
+	font-size: 20px;
 	padding-top: 15px;	
 }
 
@@ -203,6 +206,10 @@ main{
 	display: inline-block;
 	width: 220px;
 	color: #48bb78;
+}
+
+.wa h1{
+	font-size: 23px;
 }
 
 /* untuk icon nya */
@@ -267,7 +274,7 @@ i{
 	padding: 25px;
 	border-radius: 10px;
 	margin: 5px;
-	font-size: 15px;;
+	font-size: 18px;;
 	text-align: left;
 
 	background-color: rgba(209,48,53,0.95);
@@ -288,7 +295,7 @@ i{
 
 .pencegahan{
 	width: 670px;
-	font-size: 15px;
+	font-size: 20px;
 	padding: 25px;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -306,16 +313,26 @@ i{
 	margin-top: 20px;
 }
 
+.pencegahan p{
+	font-weight: normal;
+	color: rgba(0,0,0,0.62);
+}
+
 
 .pencegahan h1{
 	font-size: 20px;
 	margin-bottom: 20px;
 }
 
+.cegah h1{
+	font-size: 40px;
+}
+
 .pencegahan li{
 	margin: 5px 0;
 	list-style: circle;
 	margin-right: 10px;
+	color: rgba(0,0,0,0.62);
 }
 .box img{
 	width: 40%;
@@ -365,6 +382,7 @@ input, textarea {
 
 /* -- Ini Bagian Footer -- */
 footer{
+	position: relative;
 	margin-top: 50px;
 	padding-bottom: 70px;
     height:180px;
@@ -434,4 +452,38 @@ footer{
     color:#ffa931;
 }
 
-/* End of Footer/
+/* End of Footer*/
+
+
+.image-progate{
+	margin-top: 10px;
+	background-color: #349356;
+	width: 70px;
+	padding: 20px;
+		box-shadow: 0 0 5px 1px rgba(0,0,0,.4);
+}
+
+.text-progate{
+	margin: 0 auto;
+	width: 100%;
+}
+.progate{
+	width: 110px;
+	position: absolute;
+	left: 47%;
+	right: 47%;
+	top: 15%;
+
+}
+
+.logo1:hover{
+	cursor: pointer;
+	animation: Right 2s infinite;
+}
+
+
+@keyframes Right{
+	100%{
+		transform: rotate(1800deg);
+	}
+}
