@@ -485,3 +485,9 @@ footer{
 		transform: rotate(1800deg);
 	}
 }
+
+
+/* menghapus menu bar untuk website */
+.bar{
+	display: none;
+}
