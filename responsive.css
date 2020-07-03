@@ -1,3 +1,13 @@
+@media (max-width: 900px) {
+    .imageHeader img {
+        display: none
+    }
+
+    .blok {
+        width: 100%;
+    }
+}
+
 @media (max-width: 670px){
     /* Ini bagiam header */
     .menu {
