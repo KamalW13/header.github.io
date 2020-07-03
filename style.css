@@ -313,27 +313,25 @@ i{
 	margin-top: 20px;
 }
 
-.pencegahan p{
-	font-weight: normal;
-	color: rgba(0,0,0,0.62);
-}
-
-
-.pencegahan h1{
+.pencegahan h1 {
 	font-size: 20px;
 	margin-bottom: 20px;
+	width: 60%;
 }
 
-.cegah h1{
+.cegah h1 {
 	font-size: 40px;
+	width: 60%;
 }
 
-.pencegahan li{
+.pencegahan li {
 	margin: 5px 0;
 	list-style: circle;
 	margin-right: 10px;
-	color: rgba(0,0,0,0.62);
+	color: rgba(0, 0, 0, 0.62);
+	width: 60%;
 }
+
 .box img{
 	width: 40%;
 }
